@@ -2,6 +2,10 @@
 
 Programa voltado a seleção de alunos para o curso de Capacitação Técnológica em Engenharia de Software
 
+## Arquitetura
+
+[Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
+
 ## 🚀 Começando
 
 Comece clonando o repositório usando o git clone.
