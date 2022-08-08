@@ -4,6 +4,7 @@ Programa voltado a seleção de alunos para o curso de Capacitação Técnológi
 
 ## Arquitetura
 
+A arquitetura está definida no arquivo definido no link que segue:
 [Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
 
 ## 🚀 Começando
