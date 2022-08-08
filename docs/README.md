@@ -7,6 +7,11 @@ Programa voltado a seleção de alunos para o curso de Capacitação Técnológi
 A arquitetura está definida no arquivo definido no link que segue:
 [Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
 
+## Protótipo
+
+O protótipo é de baixa fidelidade e está no link que segue:
+[Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Prot%C3%B3tipo.pdf)
+
 ## 🚀 Começando
 
 Comece clonando o repositório usando o git clone.
