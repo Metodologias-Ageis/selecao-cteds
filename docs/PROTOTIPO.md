@@ -8,10 +8,10 @@ O protótipo de baixa fidelidade tem um viés de desenvolver estratégias e sint
 
 ## Fluxo de usuário
 
-[Fluxograma](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/fluxograma.png)
+![Fluxograma](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/fluxograma.png)
 
 ## Telas
 
-[Tela1](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/mockup1.png)
+![Tela1](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/mockup1.png)
 
-[Tela2](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/mockup2.png)
+![Tela2](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/mockup2.png)
