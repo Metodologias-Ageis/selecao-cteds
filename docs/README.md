@@ -10,7 +10,7 @@ A arquitetura está definida no arquivo definido no link que segue:
 ## Protótipo
 
 O protótipo é de baixa fidelidade e está no link que segue:
-[Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Prot%C3%B3tipo.pdf)
+[Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/PROTOTIPO.md)
 
 ## Competências
 
