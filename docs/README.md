@@ -1,4 +1,4 @@
-# D5 - Grupo 8
+# Curso Metodologias Ágeis D5 - Grupo 8
 
 # Projeto e Acompanhamento de Progresso 🎢
 
