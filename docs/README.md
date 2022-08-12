@@ -18,3 +18,5 @@ Seleção CTEDS é uma plataforma unificada a ser agregada na infraestrutura da 
 [Documento de Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
 
 [Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/PROTOTIPO.md)
+
+[UserStory](https://miro.com/app/board/uXjVOgFoIZM=/?share_link_id=371555726761)
