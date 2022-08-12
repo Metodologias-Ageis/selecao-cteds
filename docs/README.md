@@ -15,7 +15,7 @@ Seleção CTEDS é uma plataforma unificada a ser agregada na infraestrutura da 
 # Sessão de Links 🔗
 [Competências](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
 
-[Documento de Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
+[Documento de Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/DocumentoDeArquitetura.md)
 
 [Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/PROTOTIPO.md)
 
