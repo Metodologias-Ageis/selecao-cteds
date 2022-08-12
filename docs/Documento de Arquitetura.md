@@ -63,7 +63,7 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 
 ## 4 - Visão de Casos de Uso
 
- ### Casos de uso:
+ ### 4.1 Casos de uso:
 
 * Registrar interesse (oferta do curso)
 * Aviso/notificação abertura de oferecimento do curso 
@@ -77,6 +77,9 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 * Acessar página com conteúdo do curso
 * ...
 
+### Diagrama casos de uso
+
+![Diagrama Casos de Uso](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/fluxograma.png)
     
 
 ## 5 - Visão Lógica
@@ -84,7 +87,7 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 A aplicação consiste em um frontend rodando React e Bootstrap como interface do usuário e uma API construída com ASP.Net e ORM Entity Framework para mapeamento das tabelas do banco de dados PostgreSQL.
 
 ### 5.1 Visão Geral
-!["Visão Geral"](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/visao-geral.jpg)
+![Visão Geral](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/visao-geral.jpg)
 
 O Usuário interage com a aplicação em uma página Web responsiva e apesar de ser possível o uso em dispositivos móveis como smartphones e tablets, será recomendado o uso em notebooks e desktops, pois o uso de teclado e mouse se tornam necessários para a realização dos testes práticos dos candidatos.
 
