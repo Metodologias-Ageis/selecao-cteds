@@ -15,6 +15,7 @@ O Seleção CTEDS é uma plataforma para o auxilío de seleção de candidatos �
 Sigle/Termo/Acrônimo | Definição
 -------------------- | ----------
 API                  | Application Programming Interface
+IAAS                 | Infrastructure as a Service
 MVC                  | Model View Controlle
 ORM                  | Object-Realational Mapping
 SPA                  | Single Page Application
@@ -62,19 +63,21 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 
 ## 4 - Visão de Casos de Uso
 
-    Casos de uso:
+ ### Casos de uso:
 
-    * Registrar interesse (oferta do curso)
-    * Aviso/notificação abertura de oferecimento do curso 
-    * Preencher formulário com os dados do usuário
-    * Triagem dos candidatos
-    * Puxar dados do candidato API Linkedin
-    * Enviar email com resposta da triagem
-    * Formulário para receber documentação (aprovados)
-    * Página com IDE para aplicação da prova
-    * Enviar por email resultado
-    * Acessar página com conteúdo do curso
-    * ...
+* Registrar interesse (oferta do curso)
+* Aviso/notificação abertura de oferecimento do curso 
+* Preencher formulário com os dados do usuário
+* Triagem dos candidatos
+* Puxar dados do candidato API Linkedin
+* Enviar email com resposta da triagem
+* Formulário para receber documentação (aprovados)
+* Página com IDE para aplicação da prova
+* Enviar por email resultado
+* Acessar página com conteúdo do curso
+* ...
+
+    
 
 ## 5 - Visão Lógica
 
