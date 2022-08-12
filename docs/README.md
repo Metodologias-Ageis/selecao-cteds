@@ -8,7 +8,7 @@
 
 # Solução CTEDS 🧩
 
-#1. Visão Geral
+## Visão Geral
 
 Seleção CTEDS é uma plataforma unificada a ser agregada na infraestrutura da USP para recrutamento, acompanhamento e realização de avaliações do curso Capacitação Tecnológica em Engenharia e Desenvolvimento de Software. 
 
