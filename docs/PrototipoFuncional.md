@@ -34,7 +34,7 @@ Tela com as questões objetivas, discursivas e exercícios-programa com campos p
 
 Para alunos selecionados, informações dos próximos passos para matrícula e andamento do curso. Para não aprovados, informações dos próximos oferecimentos.
 
-### 2.2.x Desenhos
+### 2.2.6 Desenhos
 
 As imagens a seguir apresentam as telas da aplicação desenhadas em papel conforme os requisitos do sistema, o fluxo de usuário e as discussões realizadas pelo grupo.
 
