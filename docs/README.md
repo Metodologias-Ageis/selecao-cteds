@@ -11,6 +11,8 @@
 Seleção CTEDS é uma plataforma unificada a ser agregada na infraestrutura da USP para recrutamento, acompanhamento e realização de avaliações do curso CTEDS. 
 
 # Sessão de Links 🔗
-![Competências](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
-![Documento de Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
-![Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/PROTOTIPO.md)
+[Competências](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
+
+[Documento de Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
+
+[Protótipo](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/PROTOTIPO.md)
