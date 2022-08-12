@@ -22,7 +22,7 @@ VM                   | Virtual Machine
 
 ## 2 - Representação Arquitetural
 
-Será utilizado neste projeto o padrão de arquitetura MVC (Model, View and Controller). A camada Model fica responsável por gerenciar, controlar os dados e regras de négocio da aplicação. Está está ligada diretamente ao banco de dados.
+Será utilizado neste projeto o padrão de arquitetura MVC (Model, View and Controller). A camada Model fica responsável por gerenciar, controlar os dados e regras de négocio da aplicação. Esta, está ligada diretamente ao banco de dados.
 A camada View é responsável pela apresentação das informações aos usuários, o frontend da aplicação. Já a camada de Controller é responsável pela intermediação das requisições vindas da View para o Model.
 
 ### 2.1 - .NET  
@@ -36,16 +36,45 @@ React é uma biblioteca Javascript open source para criar interfaces de usuário
 
 Bootstrap é um conjunto de ferramentas e componentes frontend, que facilicitam a padronização e estilização de interfaces de usuário.
 
-## ...
+## 2.4 PostgreSQL
+
+O PostgreSQL é um poderoso sistema de banco de dados relacional de código aberto com mais de 30 anos de desenvolvimento ativo, confiável, de alto desempenho e vários recursos.
 
 ## 3 - Requisitos e Restrições Arquiteturais
+
+### 3.1 Ferramentas de desenvolvimento
+
+O projeto será desenvolvido utilizando a IDE Visual Studio 2022 versão Community para a criação do backend e Visual Studio Code para implementação do frontend.
+
+### 3.2 Infraestrutura
+
+Iaas na AZURE com as seguintes configurações:
+
+* Máquina virtual com 4 vcores
+* 16 GB de memória ram
+* Sistema operacional Debian 11
+* Nginx para servidor web
+* Banco de dados PostgreSQL
+
+### 3.3 Restrições
+
+A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, poderá apresentar limitações de uso em dispositivos móveis como tablets e smartphones pois será priorizado o uso de teclado e mouse nas provas práticas.
 
 ## 4 - Visão de Casos de Uso
 
     Casos de uso:
-    * Interesse (oferta do curso)
-    * Autenticação
-    *
+
+    * Registrar interesse (oferta do curso)
+    * Aviso/notificação abertura de oferecimento do curso 
+    * Preencher formulário com os dados do usuário
+    * Triagem dos candidatos
+    * Puxar dados do candidato API Linkedin
+    * Enviar email com resposta da triagem
+    * Formulário para receber documentação (aprovados)
+    * Página com IDE para aplicação da prova
+    * Enviar por email resultado
+    * Acessar página com conteúdo do curso
+    * ...
 
 ## 5 - Visão Lógica
 
