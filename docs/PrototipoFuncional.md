@@ -41,3 +41,23 @@ As imagens a seguir apresentam as telas da aplicação desenhadas em papel confo
 ![Tela1](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/mockup1.png)
 
 ![Tela2](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/mockup2.png)
+
+# 3. Outros recursos do sistema
+
+As telas dos outros recursos do sistema, relacionados com o andamento do curso, como o cadastro de grade escolar, atividades, fóruns e conteúdos, serão elaboradas nas próximas interações, conforme o desenvolvimento do projeto irá avançando.
+
+## 3.1 Fluxo de usuário e telas
+
+Serão adicionadas novas telas disponíveis apenas para os alunos aprovados na etapa de selação descrita anteriormente. 
+
+### 3.1.1 Menu disciplinas
+
+Esta tela apresentará todas as disciplinas do curso e suas respectivas descrições.
+
+### 3.1.2 Grade de notas
+
+Esta tela apresentará todas as notas obtidas e a condição do aluno em cada disciplina, aprovado ou reprovado.
+
+### 3.1.3 Conteúdo
+
+Cada disciplina terá sua tela específica de conteúdo, contendo slides, fóruns e links para aulas, canais de comunicação e atividades.
