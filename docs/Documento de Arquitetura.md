@@ -77,7 +77,7 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 * Acessar página com conteúdo do curso
 * ...
 
-### Diagrama casos de uso
+### 4.2 Diagrama casos de uso
 
 ![Diagrama Casos de Uso](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/fluxograma.png)
     
