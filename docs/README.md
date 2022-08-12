@@ -5,7 +5,7 @@ O Seleção CTEDS é uma plataforma para o auxilío de seleção de candidatos �
 ## Arquitetura
 
 A arquitetura está definida no arquivo definido no link que segue:
-[Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/ARQUITETURA.md)
+[Arquitetura](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/docs/Documento%20de%20Arquitetura.md)
 
 ## Protótipo
 
