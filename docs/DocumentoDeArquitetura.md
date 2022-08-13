@@ -122,7 +122,6 @@ No backend, uma aplicação escrita em C# utilizando o framework .NET com ASP.NE
 O banco de dados utilizado será o PostgreSQL por ser open source e ter uma licença mais abrangente.
 
 
-## 6 - Visão de implementação
 
 ## Referências
 
