@@ -1,14 +1,22 @@
 # Documento de Arquitetura 
 
+### Histórico de revisão
+
+| Data | Versão | Modificação | Autor |
+| :- | :- | :- | :- |
+| 08/08/2022 | 0.1 | Abertura do documento de arquitetura | Renato Nascimento |
+| 08/08/2022 | 0.2 | Adição definições e acrônimos | Renato Nascimento |
+| 08/08/2022 | 0.3 | Adição Introdução e representação arquitetural | Renato Nascimento |
+
 ## 1 - Introdução 
 
 ### 1.1 - Finalidade 
 
-Este documento tem como finalidade fornecer uma visão geral da arquitetura que será utilizada no desenvolvimento do projeto Seleção CTEDS como parte do curso de Metodologias Ágeis.
+Este documento tem como finalidade fornecer uma visão geral da arquitetura que será utilizada no desenvolvimento do projeto Seleção CTEDS, como parte do curso de Metodologias Ágeis.
 
 ### 1.2 - Escopo
 
-O Seleção CTEDS é uma plataforma para o auxilío de seleção de candidatos à novas turmas do curso Capacitação Tecnológica em Engenharia e Desenvolvimento. 
+O Seleção CTEDS é uma plataforma para o auxilío de seleção de candidatos à novas turmas do curso Capacitação Tecnológica em Engenharia e Desenvolvimento de Software, além de reunir ferramentas de apoio ao ensino em um único lugar. 
 
 ### 1.3 - Definições, acrônimos e abreviações
 
@@ -23,8 +31,8 @@ VM                   | Virtual Machine
 
 ## 2 - Representação Arquitetural
 
-Será utilizado neste projeto o padrão de arquitetura MVC (Model, View and Controller). A camada Model fica responsável por gerenciar, controlar os dados e regras de négocio da aplicação. Esta, está ligada diretamente ao banco de dados.
-A camada View é responsável pela apresentação das informações aos usuários, o frontend da aplicação. Já a camada de Controller é responsável pela intermediação das requisições vindas da View para o Model.
+O projeto utilizará a arquitetura MVC (Model, View e Controller) para o desenvolvimento da aplicação base (frontend e backend). Serão utilizados ainda, soluções de terceiros, preferencialmente Open Source para a comunicação dos usuários e aplicação de testes/provas.
+
 
 ### 2.1 - .NET  
 O .NET é uma plataforma de desenvolvedor gratuita, multiplataforma de código aberto para criação de aplicativos web, mobile, desktop, games, ioT, cloud e microserviços. O .NET é criado em um runtime de alto desempenho que é usado em produção por muitas aplicações de alta escala.
@@ -41,6 +49,15 @@ Bootstrap é um conjunto de ferramentas e componentes frontend, que facilicitam 
 
 O PostgreSQL é um poderoso sistema de banco de dados relacional de código aberto com mais de 30 anos de desenvolvimento ativo, confiável, de alto desempenho e vários recursos.
 
+## 2.5 Revolt
+O Revolt é uma alternativa Open Source ao Discord, utilizado para criação de canais de audio e texto.
+
+## 2.6 OpenRank
+O OpenRank é uma plataforma de code challenge Open Source para a criação de desafios de código e provas. 
+
+## 2.7 Jitsi
+Jitsi é uma plataforma Open Source para videoconferência com criptografia de ponta a ponta e com possibilidade de criar instância própria em máquina virtual.
+
 ## 3 - Requisitos e Restrições Arquiteturais
 
 ### 3.1 Ferramentas de desenvolvimento
@@ -49,13 +66,24 @@ O projeto será desenvolvido utilizando a IDE Visual Studio 2022 versão Communi
 
 ### 3.2 Infraestrutura
 
+#### 3.2.1 Infraestrutura para a aplicação Seleção CTEDS
+
+Iaas na AZURE com as seguintes configurações:
+
+* Máquina virtual com 2 vcores
+* 8 GB de memória ram
+* Sistema operacional Debian 11
+* Nginx para servidor web
+* Banco de dados PostgreSQL
+
+#### 3.2.2 Infraestrutura para os serviços de audio, vídeo e code challenge
+
 Iaas na AZURE com as seguintes configurações:
 
 * Máquina virtual com 4 vcores
 * 16 GB de memória ram
 * Sistema operacional Debian 11
-* Nginx para servidor web
-* Banco de dados PostgreSQL
+* 1 TB de armazenamento
 
 ### 3.3 Restrições
 
@@ -75,7 +103,7 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 * Página com IDE para aplicação da prova
 * Enviar por email resultado
 * Acessar página com conteúdo do curso
-* ...
+* Hub com links para acessar as plataformas de chat e vídeo
 
 ### 4.2 Diagrama casos de uso
 
@@ -102,3 +130,5 @@ O banco de dados utilizado será o PostgreSQL por ser open source e ter uma lice
 NET | Free. Cross-platform. Open Source - Disponível em https://dotnet.microsoft.com/en-us/ - Acessado em 07/08/2022
 
 React - Disponível em https://pt-br.reactjs.org/ - Acessado em 08/08/2022
+
+
