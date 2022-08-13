@@ -41,17 +41,17 @@ React é uma biblioteca Javascript open source para criar interfaces de usuário
 
 Bootstrap é um conjunto de ferramentas e componentes frontend, que facilicitam a padronização e estilização de interfaces de usuário.
 
-## 2.4 PostgreSQL
+### 2.4 PostgreSQL
 
 O PostgreSQL é um poderoso sistema de banco de dados relacional de código aberto com mais de 30 anos de desenvolvimento ativo, confiável, de alto desempenho e vários recursos.
 
-## 2.5 Revolt
+### 2.5 Revolt
 O Revolt é uma alternativa Open Source ao Discord, utilizado para criação de canais de audio e texto.
 
-## 2.6 OpenRank
+### 2.6 OpenRank
 O OpenRank é uma plataforma de code challenge Open Source para a criação de desafios de código e provas. 
 
-## 2.7 Jitsi
+### 2.7 Jitsi
 Jitsi é uma plataforma Open Source para videoconferência com criptografia de ponta a ponta e com possibilidade de criar instância própria em máquina virtual.
 
 ## 3 - Requisitos e Restrições Arquiteturais
