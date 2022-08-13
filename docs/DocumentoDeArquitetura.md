@@ -1,13 +1,5 @@
 # Documento de Arquitetura 
 
-### Histórico de revisão
-
-| Data | Versão | Modificação | Autor |
-| :- | :- | :- | :- |
-| 08/08/2022 | 0.1 | Abertura do documento de arquitetura | Renato Nascimento |
-| 08/08/2022 | 0.2 | Adição definições e acrônimos | Renato Nascimento |
-| 08/08/2022 | 0.3 | Adição Introdução e representação arquitetural | Renato Nascimento |
-
 ## 1 - Introdução 
 
 ### 1.1 - Finalidade 
@@ -16,7 +8,11 @@ Este documento tem como finalidade fornecer uma visão geral da arquitetura que 
 
 ### 1.2 - Escopo
 
-O Seleção CTEDS é uma plataforma para o auxilío de seleção de candidatos à novas turmas do curso Capacitação Tecnológica em Engenharia e Desenvolvimento de Software, além de reunir ferramentas de apoio ao ensino em um único lugar. 
+O Seleção CTEDS é uma plataforma para o auxilío de seleção de candidatos à novas turmas do curso Capacitação Tecnológica em Engenharia e Desenvolvimento de Software, além de reunir ferramentas de apoio ao ensino (chats de texto e videoconferência) em um único lugar.
+
+O projeto contará com ferramenta open source integrada para realização das aulas ao vivo por videoconferência em substituição ao Zoom, ferramenta para aplicação de testes de código e provas de seleção com correção automática e ferramenta de chat de texto para comunicação dos alunos e professores, em substituição ao Discord.
+
+
 
 ### 1.3 - Definições, acrônimos e abreviações
 
@@ -104,6 +100,8 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 * Enviar por email resultado
 * Acessar página com conteúdo do curso
 * Hub com links para acessar as plataformas de chat e vídeo
+* Acessar Revolt para chats de texto 
+* Acessar Jitsi para aulas ao vivo
 
 ### 4.2 Diagrama casos de uso
 
@@ -112,7 +110,7 @@ A aplicação apesar de ser responsiva devido ao uso da biblioteca Bootstrap, po
 
 ## 5 - Visão Lógica
 
-A aplicação consiste em um frontend rodando React e Bootstrap como interface do usuário e uma API construída com ASP.Net e ORM Entity Framework para mapeamento das tabelas do banco de dados PostgreSQL.
+A aplicação consiste em um frontend SPA rodando React e Bootstrap como interface do usuário e uma API construída com ASP.Net e ORM Entity Framework para mapeamento das tabelas do banco de dados PostgreSQL.
 
 ### 5.1 Visão Geral
 ![Visão Geral](https://github.com/ferdinandocastilho/selecao-cteds/blob/main/assets/visao-geral.jpg)
@@ -123,12 +121,23 @@ As requisições e respostas realizadas pelo frontend, são feitas através do p
 No backend, uma aplicação escrita em C# utilizando o framework .NET com ASP.NET e para facilitar a escrita das querys, é feito o uso do ORM Entity Framework 6.0.
 O banco de dados utilizado será o PostgreSQL por ser open source e ter uma licença mais abrangente.
 
+
 ## 6 - Visão de implementação
 
 ## Referências
 
+Bootstrap - Disponível em https://getbootstrap.com/ - Acessado em 09/08/2022
+
+Jitsi - Disponível em https://jitsi.github.io/ - Acessado em 12/08/2022
+
 NET | Free. Cross-platform. Open Source - Disponível em https://dotnet.microsoft.com/en-us/ - Acessado em 07/08/2022
 
+OpenRank - Disponível em https://github.com/MrPeker/OpenRank - Acessado em 12/08/2022
+
+PostgreSQL - Disponível em https://www.postgresql.org/ - Acessado em 09/08/2022
+
 React - Disponível em https://pt-br.reactjs.org/ - Acessado em 08/08/2022
+
+Revolt - Disponível em https://github.com/revoltchat - Acessado em 12/08/2022
 
 
