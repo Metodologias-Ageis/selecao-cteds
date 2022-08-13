@@ -9,7 +9,7 @@
 |-|-|-|
 | 1.0 | Q2 2022 | Versão Inicial |
 | 1.2 | Q3 2022 | Menu Disciplinas |
-| 1.5 | Q4 2022 | Grade de Notas |
+| 1.5 | Q1 2023 | Grade de Notas |
 
 # Solução CTEDS 🧩
 
